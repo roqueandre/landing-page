@@ -1,9 +1,9 @@
 
-
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 
 }
 
@@ -78,6 +78,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 48px;
 }
 
 .first-info {
@@ -88,7 +89,7 @@ main {
     margin-bottom: 48px;
 }
 
-.first-info h1 {
+.first-info h2 {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
@@ -117,6 +118,63 @@ main {
     border-radius: 8px;
 }
 
+
+
 .second-info {
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+
+}
+
+.quote-content {
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 910px;
+
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    width: 910px;
+    align-self: center;
+    font-style: italic;
+}
+
+.person {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 48px;
+}
+
+.footer-box {
+    background: #3882F6;
+    display: flex;
+    flex-direction: column;
+    width: 910px;
+    padding: 6px 34px;
+    color: #F9faf8;
+    border-radius: 8px;
+}
+
+.footer-content {
+    display: flex;
+}
+
+.footer-text {
+    flex-grow: 2;
+}
+
+.footer-content button {
+    border: solid #F9faf8;
+    align-self: center;
 }
